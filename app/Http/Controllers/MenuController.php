@@ -9,7 +9,7 @@ class MenuController extends Controller
 {
     public function menu(){
 
-        $getdata = menu::all();
+        $getdata = Menu::where('parent_id', null)->get();
 
         return view('welcome',compact('getdata'));
 
