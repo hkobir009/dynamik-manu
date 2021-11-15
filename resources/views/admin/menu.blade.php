@@ -21,7 +21,6 @@
                         <li class="nav-devider mt-0" style="margin-bottom: 5px"></li>
                         <li> <a href="{{url('/deshboard')}}" ><span> <i class="fas fa-home"></i> </span><span class="hide-menu">Home</span></a></li>
                         <li> <a href="{{url('/create')}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Create</span></a></li>
-                    	<li> <a href="{{url('/submenu')}}" ><span> <i class="fas fa-desktop"></i> </span><span class="hide-menu">Skill</span></a></li>
 
 					</ul>
                 </nav>
