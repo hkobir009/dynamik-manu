@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',[MenuController::class,'menu']);
+Route::get('/deshboard',[MenuController::class,'deshboardIndex'])->name('deshboard');
+Route::get('/create',[MenuController::class,'create'])->name('create');
+Route::post('/create',[MenuController::class,'store']);
+Route::get('delete/{id}',[MenuController::class,'delete'])->name('delete');
+
